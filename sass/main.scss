@@ -19,6 +19,12 @@ table {
     border: 1px solid $base-text-color;
     padding: 3px;
   }
+
+  tr:hover {
+    td {
+      background-color: darken($base-background-color, 30);
+    }
+  }
 }
 
 .container {
