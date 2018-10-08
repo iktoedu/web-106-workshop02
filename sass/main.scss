@@ -1,0 +1,13 @@
+@import "normalize/import-now";
+@import "opensans";
+@import "variables";
+
+html {
+  background: linear-gradient(darken($base-background-color, 20), lighten($base-background-color, 20)), $base-background-color;
+  height: 100%;
+}
+
+body {
+  font-family: $base-font;
+  color: $base-text-color;
+}
