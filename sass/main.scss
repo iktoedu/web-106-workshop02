@@ -12,6 +12,15 @@ body {
   color: $base-text-color;
 }
 
+table {
+  border-collapse: collapse;
+
+  th, td {
+    border: 1px solid $base-text-color;
+    padding: 3px;
+  }
+}
+
 .container {
   max-width: 960px;
   margin-left: auto;
