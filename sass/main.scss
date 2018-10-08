@@ -11,3 +11,10 @@ body {
   font-family: $base-font;
   color: $base-text-color;
 }
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
