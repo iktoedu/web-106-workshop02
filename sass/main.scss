@@ -27,6 +27,14 @@ table {
   }
 }
 
+ul {
+  list-style-type: none;
+
+  li {
+    position: relative;
+  }
+}
+
 .container {
   max-width: 960px;
   margin-left: auto;
