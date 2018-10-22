@@ -1,4 +1,4 @@
-@import "normalize/import-now";
+@import "bootstrap-reboot";
 @import "opensans";
 @import "variables";
 
@@ -10,6 +10,7 @@ html {
 body {
   font-family: $base-font;
   color: $base-text-color;
+  background-color: transparent;
 }
 
 table {

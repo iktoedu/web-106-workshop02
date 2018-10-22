@@ -15,7 +15,7 @@ module.exports = function (grunt) {
                     http_fonts_path: '../fonts'
                 }),
                 includePaths: [
-                    'node_modules/normalize-scss/sass'
+                    'node_modules/bootstrap/scss'
                 ]
             },
             css: {
