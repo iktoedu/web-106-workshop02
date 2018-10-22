@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Додатки :: Основи Веб-програмування</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+</head>
+<body>
+<div class="container">
+    <h1>Основи Веб-програмування</h1>
+    <ul class="menu">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="lectures.html">Лекції</a></li>
+        <li><a href="labs.html">Лабораторні роботи</a></li>
+        <li><a href="examination.html">Підсумковий контроль</a></li>
+        <li><a href="smallapp.html" class="active">Додатки</a></li>
+    </ul>
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 block">
+                    <form id="form1">
+                        <div class="form-group">
+                            <label for="form1-arg1">First argument:</label>
+                            <input id="form1-arg1" name="form1-arg1" type="number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="form1-arg2">Second argument:</label>
+                            <input id="form1-arg2" name="form1-arg2" type="number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="form1-result">Result:</label>
+                            <input id="form1-result" name="form1-result" type="number" class="form-control" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="form1-num-uses">Number of uses:</label>
+                            <input id="form1-num-uses" name="form1-num-uses" type="number" class="form-control" readonly>
+                        </div>
+                        <input id="form1-add" name="form1-add" type="submit" value="Add" class="btn btn-primary">
+                        <input id="form1-subtract" name="form1-subtract" type="submit" value="Subtract" class="btn btn-info">
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 block">
+                    <form id="form2">
+                        <div class="form-group">
+                            <label for="form2-result">Result:</label>
+                            <input id="form2-result" name="form2-result" type="text" class="form-control" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="form2-num-uses">Number of uses:</label>
+                            <input id="form2-num-uses" name="form2-num-uses" type="number" class="form-control" readonly>
+                        </div>
+                        <input id="form2-submit" name="form2-submit" type="submit" value="Next word" class="btn btn-primary">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+</body>
+</html>
