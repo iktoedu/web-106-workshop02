@@ -3,19 +3,19 @@
     var words = ['hello', 'guys', 'good', 'morning', 'these', 'words', 'are', 'not', 'random'];
     var wordsPosition = 0;
 
-    onLoadHandlers[onLoadHandlers.length] = function () {
-        document.getElementById('form2').onsubmit = function () {
+    $(document).ready(function () {
+        $('#form2').on('submit', function () {
 
-            document.getElementById('form2-result').value = words[wordsPosition];
+            $('#form2-result').val(words[wordsPosition]);
 
             wordsPosition++;
             if (wordsPosition >= words.length) {
                 wordsPosition = 0;
             }
 
-            document.getElementById('form2-num-uses').value = ++numUses;
+            $('#form2-num-uses').val(++numUses);
             return false;
-        };
-    };
+        });
+    });
 
 })();
