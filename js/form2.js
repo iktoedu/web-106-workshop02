@@ -1,4 +1,4 @@
-(function () {
+(function ($) {
     var numUses = 0;
     var words = ['hello', 'guys', 'good', 'morning', 'these', 'words', 'are', 'not', 'random'];
     var wordsPosition = 0;
@@ -18,4 +18,4 @@
         });
     });
 
-})();
+})(jQuery);
